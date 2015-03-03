@@ -85,7 +85,7 @@ var_dump($_SESSION,$_POST)
  <h1>Examen php:To Do List</h1>
  	
  	<?php if (isset($error)): ?>
- 		<?php  echo $error ?>
+ 		<p><?php  echo $error ?></p>
  	<?php endif ?>
 
 
