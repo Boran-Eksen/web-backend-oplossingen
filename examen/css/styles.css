@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+}
+html {
+    font-family: sans-serif;
+    color: #454545;
+    }
+
+.green { 
+	border: 0px none;
+margin: 3px 0px 0px 6px;
+cursor: pointer;
+outline-width: 0px;
+position: relative;
+width: 18px;
+height: 18px;
+display: inline-block;
+background-color: green;
+border-radius: 100%;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08) inset;
+color: transparent;
+font-size: 0px;
+}
+
+.red{
+
+
+border: 0px none;
+margin: 3px 0px 0px 6px;
+cursor: pointer;
+outline-width: 0px;
+position: relative;
+width: 18px;
+height: 18px;
+display: inline;
+background-color: #F00;
+border-radius: 100%;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.08) inset;
+color: transparent;
+font-size: 0px;
+}
+
