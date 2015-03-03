@@ -73,7 +73,7 @@
 		$Done=$_SESSION ["done"];
 	}
 	//var_dump($_POST,$_SESSION)
-//var_dump($_SESSION,$_POST,$Todo,$Done)
+var_dump($_SESSION,$_POST)
  ?>
  <!doctype html>
  <html>
