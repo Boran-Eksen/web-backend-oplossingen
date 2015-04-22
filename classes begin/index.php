@@ -3,8 +3,8 @@
 	function __autoload( $className ) {
 	    include $className . '.php';
 	}
-	$unit	=60;
-	$new	=100;
+	$unit	=80;
+	$new	=70;
 	$test= new Percent( $new , $unit )
 ?>
 	<html>
@@ -15,23 +15,23 @@
 		
 
 		<table>
-	<caption>Hoeveel procent is <?php echo $new ?> van <?php echo $unit ?>?</caption>
-	<tr>
-		<td>Absoluut</td>
-		<td><?php echo $test->absolute ?></td>
-	</tr>
-	<tr>
-		<td>Relatief</td>
-		<td><?php echo $test->relative ?></td>
-	</tr>
-	<tr>
-		<td>Geheel getal</td>
-		<td><?php echo $test->hundred ?>%</td>
-	</tr>
-	<tr>
-		<td>Nominaal</td>
-		<td><?php echo $test->nominal ?></td>
-	</tr>
+		<caption>Hoeveel procent is <?php echo $new ?> van <?php echo $unit ?>?</caption>
+		<tr>
+			<td>Absoluut</td>
+			<td><?php echo $test->absolute ?></td>
+		</tr>
+		<tr>
+			<td>Relatief</td>
+			<td><?php echo $test->relative ?></td>
+		</tr>
+		<tr>
+			<td>Geheel getal</td>
+			<td><?php echo $test->hundred ?>%</td>
+		</tr>
+		<tr>
+			<td>Nominaal</td>
+			<td><?php echo $test->nominal ?></td>
+		</tr>
 </table>
 	
 	</body>
